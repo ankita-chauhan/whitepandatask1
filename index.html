@@ -1,1 +1,269 @@
-<h1>HEllo</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	  
+
+
+
+<title>HTML div</title>
+<style>
+header {
+-webkit-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+height: 60px;
+
+
+}
+#rcorners1 {
+  border-radius: 10px ;
+   border: 2px solid #3399CC;
+  background: #F0FFFF;
+  padding: 20px; 
+  width: 150px;
+  height: 20px;  
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 50px;
+  grid-column-gap: 8px;
+  background-color: white;
+  padding: 10px;
+  width: 1080px;
+  
+  margin-left: 100px;
+}
+
+
+.grid-container > div {
+  background-color:white;
+  text-align: center;
+  width: 350px;
+  height: 270px;
+}
+
+.item8{
+box-shadow: 4px 2px 12px 4px  #888888;
+}
+
+
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin-top: 360px;
+  border-radius: 65%;
+  background-color:	#D3D3D3;
+  height: 50px;
+}
+
+#mySidenav b {
+  position: absolute;
+  right: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  height: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin-top: 360px;
+  border-radius: 50%;
+  background-color:#D3D3D3;
+  shape-outside: circle();
+}
+#mySidenav a:hover {
+  left: 0;
+  background-color: grey;
+}
+
+#mySidenav b:hover {
+  right: 0;
+  background-color: grey;
+  
+}
+
+#about {
+  top: 20px;
+  background-color: #4CAF50;
+  shape-outside: circle();
+}
+
+.feedback {
+  background-color : #31B0D5;
+  color: white;
+  padding: 10px 20px;
+  border-color: white;
+  shape-outside: circle();
+}
+
+#mybutton {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  shape-outside: circle();
+  background-color: white;
+  border-radius: 50%
+
+  
+}
+
+
+  </style>
+</head>
+<body>
+	<header>
+    <h3 style="margin:50px">Whitepanda  <tab>  <img style="height: 45px;width: 45px;margin-left: 900px" src="/home/ankita/Downloads/vippng.com-notification-icon-png-391.png" > <img style="height: 45px;width: 45px;" src="/home/ankita/Downloads/trafficlight_green-512.png" ></h3>
+
+
+  </header>
+  <br><br>
+  
+
+
+
+
+<div id="mybutton">
+<button style="border:50%;border-radius: 50%;height: 40px;margin-bottom: 20px;margin-right: 20px">screens</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h1 style="margin:50px;margin-left: 100px">Content store</h1>
+
+  <div style=" background-color: #F0FFFF ;height: 180px ;width: 1020px;margin-left: 100px;padding: 40px"><font color="3399CC">Got bulk orders or similar orders  ? Fill the order breif in excel sheet</font><br><br><font color="grey">If you are wondering about an easy way to place orders in large numbers,we provide a way customized just for that.<br>Download our excel sheet ,and fill the order breif in the prescribed format and submit.In case you need any help,<u>we <br>are just a click away in placing your order</u> </font>
+<p id="rcorners1">Order via Excel Sheet</p>
+  </div>
+<br><br>
+
+
+
+
+<div id="mySidenav" class="sidenav" align="center">
+  <a href="#" id="about"> < </a>
+</div>
+
+<div id="mySidenav" class="sidenav" align="center">
+  <b href="#" id="about">  > </b>
+</div>
+
+
+
+
+
+
+
+<div class="grid-container">
+  <div class="item1" >
+  	<p>
+<img src="/home/ankita/Desktop/lo.jpeg" width="60px" height="60px" style="margin-left:-50px">
+  	<b>Blog /article</b> <br><p style="margin-left: 0px"> from 500</p>
+
+  	<p style="font-size: 15px;padding: 10px"><font color="grey">Typically 450 -400 words ,an ebook is perfect for your target audience ranging from prospective customers to use</font></p>
+  	<p style="width: 80px ; border-radius: 5px ;border: 2px solid #3399CC;background: #F0FFFF;margin-top:10px;margin-left: 80px">Order</p></div>
+  <div class="item8" >
+  	<p>
+<img src="/home/ankita/Desktop/lo.jpeg" width="60px" height="60px" style="margin-left:-50px">
+  	<b><font color=##48D1CC	>Newsletter/E-mailer</font></b> <br><p style="margin-left: 0px"> from 500</p>
+
+  	<p style="font-size: 15px;padding: 10px"><font color="grey">Typically 450 -400 words ,an ebook is perfect for your target audience ranging from prospective customers to use</font></p>
+  	<p style="width: 80px ; border-radius: 5px ;border: 2px solid #3399CC;background: #F0FFFF;margin-top:10px;margin-left: 80px">Order</p></div>
+   <div class="item1" >
+  	<p>
+<img src="/home/ankita/Desktop/lo.jpeg" width="60px" height="60px" style="margin-left:-50px">
+  	<b>Whitepaper</b> <br><p style="margin-left: 0px"> from 2000</p>
+
+  	<p style="font-size: 15px;padding: 10px"><font color="grey">Typically 450 -400 words ,an ebook is perfect for your target audience ranging from prospective customers to use</font></p>
+  	<p style="width: 80px ; border-radius: 5px ;border: 2px solid #3399CC;background: #F0FFFF;margin-top:10px;margin-left: 80px">Order</p></div>
+
+  <br>
+
+
+  <div class="item1" >
+  	<p>
+<img src="/home/ankita/Desktop/lo.jpeg" width="60px" height="60px" style="margin-left:-50px">
+  	<b>e-book</b> <br><p style="margin-left: 0px"> from 1000</p>
+
+  	<p style="font-size: 15px;padding: 10px"><font color="grey">Typically 450 -400 words ,an ebook is perfect for your target audience ranging from prospective customers to use</font></p>
+  	<p style="width: 80px ; border-radius: 5px ;border: 2px solid #3399CC;background: #F0FFFF;margin-top:10px;margin-left: 80px">Order</p></div>
+   <div class="item1" >
+  	<p>
+<img src="/home/ankita/Desktop/lo.jpeg" width="60px" height="60px" style="margin-left:-50px">
+  	<b>Report/Guide</b> <br><p style="margin-left: 0px"> from 1000</p>
+
+  	<p style="font-size: 15px;padding: 10px"><font color="grey">Typically 450 -400 words ,an ebook is perfect for your target audience ranging from prospective customers to use</font></p>
+  	<p style="width: 80px ; border-radius: 5px ;border: 2px solid #3399CC;background: #F0FFFF;margin-top:10px;margin-left: 80px">Order</p></div>
+  <div class="item1" >
+  	<p>
+<img src="/home/ankita/Desktop/lo.jpeg" width="60px" height="60px" style="margin-left:-50px">
+  	<b>Product description</b> <br><p style="margin-left: 0px"> from 500</p>
+
+  	<p style="font-size: 15px;padding: 10px"><font color="grey">Typically 450 -400 words ,an ebook is perfect for your target audience ranging from prospective customers to use</font></p>
+  	<p style="width: 80px ; border-radius: 5px ;border: 2px solid #3399CC;background: #F0FFFF;margin-top:10px;margin-left: 80px">Order</p></div>
+  <br>
+   <div class="item1" >
+  	<p>
+<img src="/home/ankita/Desktop/lo.jpeg" width="60px" height="60px" style="margin-left:-50px">
+  	<b>Website Content</b> <br><p style="margin-left: 0px"> from 1000</p>
+
+  	<p style="font-size: 15px;padding: 10px"><font color="grey">Typically 450 -400 words ,an ebook is perfect for your target audience ranging from prospective customers to use</font></p>
+  	<p style="width: 80px ; border-radius: 5px ;border: 2px solid #3399CC;background: #F0FFFF;margin-top:10px;margin-left: 80px">Order</p></div>
+  <div class="item1" >
+  	<p>
+<img src="/home/ankita/Desktop/lo.jpeg" width="60px" height="60px" style="margin-left:-50px">
+  	<b>Video Script</b> <br><p style="margin-left: 0px"> from 1000</p>
+
+  	<p style="font-size: 15px;padding: 10px"><font color="grey">Typically 450 -400 words ,an ebook is perfect for your target audience ranging from prospective customers to use</font></p>
+  	<p style="width: 80px ; border-radius: 5px ;border: 2px solid #3399CC;background: #F0FFFF;margin-top:10px;margin-left: 80px">Order</p></div>
+ <div class="item1" >
+  	<p>
+<img src="/home/ankita/Desktop/lo.jpeg" width="60px" height="60px" style="margin-left:-50px">
+  	<b>Company Profile/Brochure </b> <br><p style="margin-left: 0px"> from 2000</p>
+
+  	<p style="font-size: 15px;padding: 10px"><font color="grey">Typically 450 -400 words ,an ebook is perfect for your target audience ranging from prospective customers to use</font></p>
+  	<p style="width: 80px ; border-radius: 5px ;border: 2px solid #3399CC;background: #F0FFFF;margin-top:10px;margin-left: 80px">Order</p></div>
+  <br>  
+   <div class="item1" >
+  	<p>
+<img src="/home/ankita/Desktop/lo.jpeg" width="60px" height="60px" style="margin-left:-50px">
+  	<b>Press release</b> <br><p style="margin-left: 0px"> from 2000</p>
+
+  	<p style="font-size: 15px;padding: 10px"><font color="grey">Typically 450 -400 words ,an ebook is perfect for your target audience ranging from prospective customers to use</font></p>
+  	<p style="width: 80px ; border-radius: 5px ;border: 2px solid #3399CC;background: #F0FFFF;margin-top:10px;margin-left: 80px">Order</p></div>
+</div>
+
+
+
+</body>
+
+<footer>
+	
+		<p style="margin-left: 540px"><img src="/home/ankita/Desktop/tw.png" style="height: 30px;width: 30px">
+		<img src="/home/ankita/Desktop/ln.png "style="height: 30px;width: 30px;margin-left: 30px">
+		<img src="/home/ankita/Desktop/in.png "style="height: 30px;width: 30px;margin-left: 30px">
+		<img src="/home/ankita/Desktop/f.png "style="height: 30px;width: 30px;margin-left: 30px"></p>
+		<center>
+  <p style="color:grey">Copyright @ 2019 White Panda Pvt Ltd 
+  <br>
+  All rights reserved
+<br><br>
+<u>Privacy policy | Terms of service | Service Agreement | Contact us</u>
+</p>
+  
+  </center>
+</footer>
+</html>
